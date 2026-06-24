@@ -1407,242 +1407,242 @@
       "event_modAction":                  "Acción de Moderación del Bot"
     },
     "commands": {
-      "muteTitle": "Mute System",
-      "muteSystem": "Mute Type",
-      "muteSystemHint": "Use Discord's built-in timeout or a role-based mute system.",
-      "muteDiscord": "Discord Timeout",
-      "muteRole": "Role-Based (Premium)",
-      "muteRoleId": "Mute Role",
-      "jailTitle": "Jail (Quarantine) System",
-      "jailHint": "The jail command assigns a quarantine role and restricts the user to only the jail channel.",
-      "jailPremium": "Jail system requires Premium.",
-      "jailRole": "Jail Role",
-      "jailChannel": "Jail Channel",
-      "jailLog": "Jail Log Channel",
-      "logChannels": "Command Log Channels",
-      "logChannelsHint": "Set a separate log channel for each command.",
-      "banLog": "Ban Log",
-      "kickLog": "Kick Log",
-      "muteLog": "Mute Log",
-      "warnLog": "Warn Log",
-      "dmNotify": "DM Notifications",
-      "dmNotifyHint": "Send a DM notification to the user when an action is applied.",
-      "dmOnBan": "DM on Ban",
-      "dmOnKick": "DM on Kick",
-      "dmOnMute": "DM on Mute",
-      "dmOnJail": "DM on Jail",
-      "dmOnWarn": "DM on Warn",
-      "warnTitle": "Warning System",
-      "warnThreshold": "Warning Threshold",
-      "warnThresholdHint": "Automatic action is triggered after this many warnings.",
-      "warnAction": "Threshold Action",
-      "warnAction_none": "No action",
-      "warnAction_mute": "Mute",
-      "warnAction_kick": "Kick",
-      "warnAction_tempban": "Temp Ban",
-      "warnAction_ban": "Ban",
-      "warnActionDuration": "Action Duration"
+"muteTitle": "Sistema de Silencio",
+  "muteSystem": "Tipo de Silencio",
+  "muteSystemHint": "Utilice el tiempo de espera (timeout) integrado de Discord o un sistema de silencio basado en roles.",
+  "muteDiscord": "Tiempo de espera de Discord",
+  "muteRole": "Basado en Roles (Premium)",
+  "muteRoleId": "Rol de Silencio",
+  "jailTitle": "Sistema de Cárcel (Cuarentena)",
+  "jailHint": "El comando de cárcel asigna un rol de cuarentena y restringe al usuario únicamente al canal de la cárcel.",
+  "jailPremium": "El sistema de cárcel requiere Premium.",
+  "jailRole": "Rol de Cárcel",
+  "jailChannel": "Canal de Cárcel",
+  "jailLog": "Canal de Registro de Cárcel",
+  "logChannels": "Canales de Registro de Comandos",
+  "logChannelsHint": "Establezca un canal de registro separado para cada comando.",
+  "banLog": "Registro de Baneos",
+  "kickLog": "Registro de Expulsiones",
+  "muteLog": "Registro de Silencios",
+  "warnLog": "Registro de Advertencias",
+  "dmNotify": "Notificaciones por MD",
+  "dmNotifyHint": "Enviar una notificación por mensaje directo al usuario cuando se aplique una acción.",
+  "dmOnBan": "MD al Banear",
+  "dmOnKick": "MD al Expulsar",
+  "dmOnMute": "MD al Silenciar",
+  "dmOnJail": "MD al Encarcelar",
+  "dmOnWarn": "MD al Advertir",
+  "warnTitle": "Sistema de Advertencias",
+  "warnThreshold": "Umbral de Advertencias",
+  "warnThresholdHint": "La acción automática se activa después de esta cantidad de advertencias.",
+  "warnAction": "Acción al alcanzar el umbral",
+  "warnAction_none": "Sin acción",
+  "warnAction_mute": "Silenciar",
+  "warnAction_kick": "Expulsar",
+  "warnAction_tempban": "Baneo temporal",
+  "warnAction_ban": "Banear",
+  "warnActionDuration": "Duración de la acción"
     }
   },
   "docs": {
-    "tutorials": "Tutorials",
+   "tutorials": "Tutoriales",
     "plugins": "Plugins",
-    "tutorialsTitle": "Tutorials",
-    "tutorialsDesc": "Step-by-step guides to set up and use every Armea feature.",
+    "tutorialsTitle": "Tutoriales",
+    "tutorialsDesc": "Guías paso a paso para configurar y usar cada función de Armea.",
     "pluginsTitle": "Plugins",
-    "pluginsDesc": "Reference documentation for every Armea plugin.",
-    "getStarted": "Get Started",
-    "navigation": "Navigation",
-    "previous": "Previous",
-    "next": "Next",
-    "version": "Version",
-    "permissions": "Required Permissions",
-    "commands": "Commands",
-    "comingSoon": "This page is being prepared. Check back soon.",
+    "pluginsDesc": "Documentación de referencia para cada plugin de Armea.",
+    "getStarted": "Empezar",
+    "navigation": "Navegación",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "version": "Versión",
+    "permissions": "Permisos Requeridos",
+    "commands": "Comandos",
+    "comingSoon": "Esta página se está preparando. Vuelva a consultar pronto.",
     "categories": {
-      "basics": "Basics",
-      "moderation": "Moderation",
-      "advanced": "Advanced",
+      "basics": "Básicos",
+      "moderation": "Moderación",
+      "advanced": "Avanzado",
       "premium": "Premium",
-      "core": "Core",
-      "tools": "Tools"
+      "core": "Núcleo",
+      "tools": "Herramientas"
     }
   },
   "terms": {
-    "pageTitle": "Terms of Service — Armea",
-    "pageDesc": "Read Armea's Terms of Service to understand the rules and guidelines for using our platform.",
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: June 1, 2026",
+    "pageTitle": "Términos de Servicio — Armea",
+    "pageDesc": "Lea los Términos de Servicio de Armea para comprender las reglas y directrices para utilizar nuestra plataforma.",
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 1 de junio de 2026",
     "sections": {
       "acceptance": {
-        "title": "1. Acceptance of Terms",
-        "body": "By accessing or using Armea (the \"Service\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service. These terms apply to all users, including server administrators and members."
+        "title": "1. Aceptación de los Términos",
+        "body": "Al acceder o utilizar Armea (el \"Servicio\"), usted acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo con estos términos, por favor no utilice el Servicio. Estos términos se aplican a todos los usuarios, incluyendo administradores de servidores y miembros."
       },
       "service": {
-        "title": "2. Description of Service",
-        "body": "Armea is a Discord bot and web dashboard that provides server management, moderation, leveling, and other community tools. We reserve the right to modify, suspend, or discontinue any part of the Service at any time without prior notice."
+        "title": "2. Descripción del Servicio",
+        "body": "Armea es un bot de Discord y un panel web que proporciona gestión de servidores, moderación, niveles y otras herramientas comunitarias. Nos reservamos el derecho de modificar, suspender o discontinuar cualquier parte del Servicio en cualquier momento sin previo aviso."
       },
       "account": {
-        "title": "3. Account Responsibility",
-        "body": "You are responsible for maintaining the security of your Discord account and any servers you manage through Armea. You must not share your authentication credentials or allow unauthorized access to your account. You are responsible for all activity that occurs under your account."
+        "title": "3. Responsabilidad de la Cuenta",
+        "body": "Usted es responsable de mantener la seguridad de su cuenta de Discord y de cualquier servidor que gestione a través de Armea. No debe compartir sus credenciales de autenticación ni permitir el acceso no autorizado a su cuenta. Usted es responsable de toda la actividad que ocurra bajo su cuenta."
       },
       "conduct": {
-        "title": "4. Acceptable Use",
-        "body": "You agree not to use the Service to:",
+        "title": "4. Uso Aceptable",
+        "body": "Usted acepta no utilizar el Servicio para:",
         "items": [
-          "Violate Discord's Terms of Service or Community Guidelines",
-          "Harass, abuse, or harm other users",
-          "Distribute spam, malware, or malicious content",
-          "Attempt to gain unauthorized access to any part of the Service",
-          "Use the Service for any illegal or unauthorized purpose",
-          "Interfere with or disrupt the integrity or performance of the Service"
+          "Violar los Términos de Servicio o las Directrices de la Comunidad de Discord",
+          "Acosar, abusar o dañar a otros usuarios",
+          "Distribuir spam, malware o contenido malicioso",
+          "Intentar obtener acceso no autorizado a cualquier parte del Servicio",
+          "Utilizar el Servicio para cualquier propósito ilegal o no autorizado",
+          "Interferir o interrumpir la integridad o el rendimiento del Servicio"
         ]
       },
       "premium": {
-        "title": "5. Premium Subscriptions",
-        "body": "Premium features are available through paid subscriptions. Payments are processed securely and are subject to our refund policy. Premium subscriptions are transferable between servers as described in the dashboard. We reserve the right to change pricing with reasonable notice."
+        "title": "5. Suscripciones Premium",
+        "body": "Las funciones Premium están disponibles a través de suscripciones de pago. Los pagos se procesan de forma segura y están sujetos a nuestra política de reembolso. Las suscripciones Premium son transferibles entre servidores según lo descrito en el panel. Nos reservamos el derecho de cambiar los precios con un aviso razonable."
       },
       "termination": {
-        "title": "6. Termination",
-        "body": "We reserve the right to suspend or terminate your access to the Service at any time, with or without cause, and with or without notice. Upon termination, your right to use the Service will immediately cease."
+        "title": "6. Terminación",
+        "body": "Nos reservamos el derecho de suspender o terminar su acceso al Servicio en cualquier momento, con o sin causa, y con o sin previo aviso. Tras la terminación, su derecho a utilizar el Servicio cesará inmediatamente."
       },
       "disclaimer": {
-        "title": "7. Disclaimer of Warranties",
-        "body": "The Service is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied. We do not warrant that the Service will be uninterrupted, error-free, or free of harmful components. Your use of the Service is at your sole risk."
+        "title": "7. Descargo de Responsabilidad de Garantías",
+        "body": "El Servicio se proporciona \"tal cual\" y \"según disponibilidad\" sin garantías de ningún tipo, ya sean expresas o implícitas. No garantizamos que el Servicio sea ininterrumpido, libre de errores o libre de componentes dañinos. El uso que usted haga del Servicio es bajo su propio riesgo."
       },
       "changes": {
-        "title": "8. Changes to Terms",
-        "body": "We may update these Terms of Service from time to time. We will notify users of significant changes by updating the date at the top of this page. Continued use of the Service after changes constitutes acceptance of the new terms."
+        "title": "8. Cambios en los Términos",
+        "body": "Podemos actualizar estos Términos de Servicio de vez en cuando. Notificaremos a los usuarios sobre cambios significativos actualizando la fecha en la parte superior de esta página. El uso continuado del Servicio después de los cambios constituye la aceptación de los nuevos términos."
       },
       "contact": {
-        "title": "9. Contact",
-        "body": "If you have any questions about these Terms of Service, please contact us through our support server or via the contact options available on our website."
+        "title": "9. Contacto",
+        "body": "Si tiene alguna pregunta sobre estos Términos de Servicio, por favor contáctenos a través de nuestro servidor de soporte o mediante las opciones de contacto disponibles en nuestro sitio web."
       }
     }
   },
   "privacy": {
-    "pageTitle": "Privacy Policy — Armea",
-    "pageDesc": "Learn how Armea collects, uses, and protects your personal data.",
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: June 1, 2026",
+    "pageTitle": "Política de Privacidad — Armea",
+    "pageDesc": "Conozca cómo Armea recopila, utiliza y protege sus datos personales.",
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 1 de junio de 2026",
     "sections": {
       "intro": {
-        "title": "1. Introduction",
-        "body": "Armea (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Discord bot and web dashboard. Please read this policy carefully."
+        "title": "1. Introducción",
+        "body": "Armea (\"nosotros\", \"nuestro\" o \"nos\") se compromete a proteger su privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos, divulgamos y salvaguardamos su información cuando utiliza nuestro bot de Discord y panel web. Por favor, lea esta política cuidadosamente."
       },
       "collect": {
-        "title": "2. Information We Collect",
-        "body": "We collect the following types of information:",
+        "title": "2. Información que Recopilamos",
+        "body": "Recopilamos los siguientes tipos de información:",
         "items": [
-          "Discord user ID, username, and avatar (provided via Discord OAuth)",
-          "Server (guild) IDs and names for servers where Armea is installed",
-          "Configuration data you set through the dashboard (module settings, custom commands, etc.)",
-          "Usage data such as command interactions and feature usage statistics",
-          "XP and leveling data for members in servers using the leveling feature"
+          "ID de usuario de Discord, nombre de usuario y avatar (proporcionados a través de Discord OAuth)",
+          "IDs y nombres de servidores (guilds) donde está instalado Armea",
+          "Datos de configuración que usted establece a través del panel (configuración de módulos, comandos personalizados, etc.)",
+          "Datos de uso tales como interacciones con comandos y estadísticas de uso de funciones",
+          "Datos de XP y niveles para los miembros en servidores que utilizan la función de niveles"
         ]
       },
       "use": {
-        "title": "3. How We Use Your Information",
-        "body": "We use the collected information to:",
+        "title": "3. Cómo Utilizamos su Información",
+        "body": "Utilizamos la información recopilada para:",
         "items": [
-          "Provide and operate the Armea bot and dashboard services",
-          "Authenticate users and manage server permissions",
-          "Store and apply your server configuration settings",
-          "Improve and develop new features for the Service",
-          "Respond to support requests and troubleshoot issues",
-          "Ensure compliance with our Terms of Service"
+          "Proporcionar y operar los servicios del bot y panel de Armea",
+          "Autenticar a los usuarios y gestionar los permisos del servidor",
+          "Almacenar y aplicar la configuración de su servidor",
+          "Mejorar y desarrollar nuevas funciones para el Servicio",
+          "Responder a solicitudes de soporte y solucionar problemas",
+          "Garantizar el cumplimiento de nuestros Términos de Servicio"
         ]
       },
       "sharing": {
-        "title": "4. Information Sharing",
-        "body": "We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who assist us in operating the Service, provided they agree to keep this information confidential. We may also disclose information when required by law or to protect our rights."
+        "title": "4. Compartición de Información",
+        "body": "No vendemos, intercambiamos ni alquilamos su información personal a terceros. Podemos compartir información con proveedores de servicios de confianza que nos ayudan a operar el Servicio, siempre que acepten mantener esta información confidencial. También podemos divulgar información cuando lo requiera la ley o para proteger nuestros derechos."
       },
       "retention": {
-        "title": "5. Data Retention",
-        "body": "We retain your data for as long as your server uses Armea or as needed to provide the Service. You may request deletion of your data by removing Armea from your server and contacting us. Some data may be retained for legal or operational purposes."
+        "title": "5. Retención de Datos",
+        "body": "Retenemos sus datos durante el tiempo que su servidor utilice Armea o según sea necesario para proporcionar el Servicio. Puede solicitar la eliminación de sus datos eliminando Armea de su servidor y contactándonos. Algunos datos pueden retenerse por propósitos legales u operativos."
       },
       "rights": {
-        "title": "6. Your Rights",
-        "body": "Depending on your location, you may have the following rights regarding your personal data:",
+        "title": "6. Sus Derechos",
+        "body": "Dependiendo de su ubicación, puede tener los siguientes derechos respecto a sus datos personales:",
         "items": [
-          "Right to access the personal data we hold about you",
-          "Right to correct inaccurate or incomplete data",
-          "Right to request deletion of your personal data",
-          "Right to object to or restrict processing of your data",
-          "Right to data portability"
+          "Derecho a acceder a los datos personales que tenemos sobre usted",
+          "Derecho a corregir datos inexactos o incompletos",
+          "Derecho a solicitar la eliminación de sus datos personales",
+          "Derecho a oponerse o restringir el procesamiento de sus datos",
+          "Derecho a la portabilidad de datos"
         ]
       },
       "security": {
-        "title": "7. Security",
-        "body": "We implement appropriate technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction. Bot tokens are encrypted using AES-256-GCM and are never stored in plain text. However, no method of transmission over the internet is 100% secure."
+        "title": "7. Seguridad",
+        "body": "Implementamos medidas técnicas y organizativas apropiadas para proteger su información contra el acceso no autorizado, alteración, divulgación o destrucción. Los tokens de los bots están cifrados utilizando AES-256-GCM y nunca se almacenan en texto plano. Sin embargo, ningún método de transmisión por Internet es 100% seguro."
       },
       "children": {
-        "title": "8. Children's Privacy",
-        "body": "The Service is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately."
+        "title": "8. Privacidad de los Niños",
+        "body": "El Servicio no está dirigido a niños menores de 13 años. No recopilamos conscientemente información personal de niños menores de 13 años. Si cree que hemos recopilado inadvertidamente dicha información, por favor contáctenos de inmediato."
       },
       "changes": {
-        "title": "9. Changes to This Policy",
-        "body": "We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the date at the top of this page. Your continued use of the Service after changes constitutes acceptance of the updated policy."
+        "title": "9. Cambios en esta Política",
+        "body": "Podemos actualizar esta Política de Privacidad de vez en cuando. Notificaremos a los usuarios sobre cambios significativos actualizando la fecha en la parte superior de esta página. El uso continuado del Servicio después de los cambios constituye la aceptación de la política actualizada."
       },
       "contact": {
-        "title": "10. Contact Us",
-        "body": "If you have questions about this Privacy Policy or wish to exercise your data rights, please contact us through our support server or via the contact options available on our website."
+        "title": "10. Contáctenos",
+        "body": "Si tiene preguntas sobre esta Política de Privacidad o desea ejercer sus derechos de datos, por favor contáctenos a través de nuestro servidor de soporte o mediante las opciones de contacto disponibles en nuestro sitio web."
       }
     }
   },
   "cookies": {
-    "pageTitle": "Cookie Policy — Armea",
-    "pageDesc": "Learn about how Armea uses cookies and similar technologies.",
-    "title": "Cookie Policy",
-    "lastUpdated": "Last updated: June 1, 2026",
+    "pageTitle": "Política de Cookies — Armea",
+    "pageDesc": "Conozca cómo Armea utiliza cookies y tecnologías similares.",
+    "title": "Política de Cookies",
+    "lastUpdated": "Última actualización: 1 de junio de 2026",
     "sections": {
       "what": {
-        "title": "1. What Are Cookies?",
-        "body": "Cookies are small text files that are stored on your device when you visit a website. They help websites remember your preferences and improve your browsing experience. We use cookies and similar technologies on our web dashboard."
+        "title": "1. ¿Qué son las Cookies?",
+        "body": "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Ayudan a los sitios web a recordar sus preferencias y mejorar su experiencia de navegación. Utilizamos cookies y tecnologías similares en nuestro panel web."
       },
       "how": {
-        "title": "2. How We Use Cookies",
-        "body": "Armea uses cookies to maintain your authentication session, remember your language preference, and ensure the dashboard functions correctly. We do not use cookies for advertising or tracking purposes."
+        "title": "2. Cómo utilizamos las Cookies",
+        "body": "Armea utiliza cookies para mantener su sesión de autenticación, recordar su preferencia de idioma y garantizar que el panel funcione correctamente. No utilizamos cookies con fines publicitarios o de seguimiento."
       },
       "types": {
-        "title": "3. Types of Cookies We Use",
-        "body": "The following table describes the cookies used by Armea:",
-        "col_type": "Cookie Type",
-        "col_purpose": "Purpose",
-        "col_duration": "Duration",
+        "title": "3. Tipos de Cookies que utilizamos",
+        "body": "La siguiente tabla describe las cookies utilizadas por Armea:",
+        "col_type": "Tipo de Cookie",
+        "col_purpose": "Propósito",
+        "col_duration": "Duración",
         "rows": [
           {
-            "type": "Authentication",
-            "purpose": "Keeps you logged in to the dashboard via Discord OAuth",
-            "duration": "Session / 7 days"
+            "type": "Autenticación",
+            "purpose": "Le mantiene conectado al panel a través de Discord OAuth",
+            "duration": "Sesión / 7 días"
           },
           {
-            "type": "Language Preference",
-            "purpose": "Remembers your selected language (EN/TR)",
-            "duration": "1 year"
+            "type": "Preferencia de Idioma",
+            "purpose": "Recuerda su idioma seleccionado (EN/TR)",
+            "duration": "1 año"
           },
           {
-            "type": "Session",
-            "purpose": "Maintains your current session state",
-            "duration": "Session"
+            "type": "Sesión",
+            "purpose": "Mantiene el estado actual de su sesión",
+            "duration": "Sesión"
           }
         ]
       },
       "control": {
-        "title": "4. Controlling Cookies",
-        "body": "You can control and manage cookies through your browser settings. Most browsers allow you to refuse cookies or delete existing ones. Please note that disabling cookies may affect the functionality of the Armea dashboard, particularly authentication features."
+        "title": "4. Control de Cookies",
+        "body": "Puede controlar y gestionar las cookies a través de la configuración de su navegador. La mayoría de los navegadores le permiten rechazar cookies o eliminar las existentes. Tenga en cuenta que deshabilitar las cookies puede afectar la funcionalidad del panel de Armea, particularmente las funciones de autenticación."
       },
       "thirdparty": {
-        "title": "5. Third-Party Cookies",
-        "body": "We use Discord's OAuth service for authentication, which may set its own cookies. We do not control these third-party cookies. Please refer to Discord's Privacy Policy for more information about how they use cookies."
+        "title": "5. Cookies de Terceros",
+        "body": "Utilizamos el servicio OAuth de Discord para la autenticación, el cual puede establecer sus propias cookies. No controlamos estas cookies de terceros. Por favor, consulte la Política de Privacidad de Discord para obtener más información sobre cómo utilizan las cookies."
       },
       "changes": {
-        "title": "6. Changes to This Policy",
-        "body": "We may update this Cookie Policy from time to time. Changes will be reflected by updating the date at the top of this page."
+        "title": "6. Cambios en esta Política",
+        "body": "Podemos actualizar esta Política de Cookies de vez en cuando. Los cambios se verán reflejados actualizando la fecha en la parte superior de esta página."
       },
       "contact": {
-        "title": "7. Contact",
-        "body": "If you have questions about our use of cookies, please contact us through our support server or via the contact options available on our website."
+        "title": "7. Contacto",
+        "body": "Si tiene preguntas sobre nuestro uso de cookies, por favor contáctenos a través de nuestro servidor de soporte o mediante las opciones de contacto disponibles en nuestro sitio web."
       }
     }
   }
