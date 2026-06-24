@@ -1,137 +1,137 @@
 {
   "nav": {
-    "home": "Home",
-    "dashboard": "Dashboard",
-    "servers": "Servers",
-    "premium": "Premium",
-    "login": "Login",
-    "logout": "Logout",
-    "profile": "Profile"
+"home": "Главная",
+    "dashboard": "Панель управления",
+    "servers": "Серверы",
+    "premium": "Премиум",
+    "login": "Войти",
+    "logout": "Выйти",
+    "profile": "Профиль"
   },
   "home": {
     "hero": {
-      "badge": "Powerful Discord Bot",
-      "title": "The best all-in-one bot for Discord",
-      "subtitle": "Armea is an easy-to-use and powerful Discord bot that communities rely on for management, entertainment, and growth.",
-      "cta": "Add to Discord",
-      "ctaSecondary": "View Features"
+      "badge": "Мощный бот для Discord",
+      "title": "Лучший универсальный бот для Discord",
+      "subtitle": "Armea — это простой в использовании и мощный бот для Discord, на который сообщества полагаются в вопросах управления, развлечения и роста.",
+      "cta": "Добавить в Discord",
+      "ctaSecondary": "Посмотреть функции"
     },
     "stats": {
-      "servers": "Server",
-      "members": "Member",
-      "users": "User",
-      "uptime": "Working Hours"
+      "servers": "Сервер",
+      "members": "Участник",
+      "users": "Пользователь",
+      "uptime": "Время работы"
     },
     "blocks": {
-      "custombot":      { "title": "Exclusively Yours with Armea: A Personalized Bot and Custom Profile Experience",   "desc": "Take your server’s identity to the next level and create a unique AI assistant that represents your brand or community. Armea opens the doors to two amazing customization worlds: You can either create and integrate a completely independent, custom bot that’s fully tailored to your server’s name and theme; or you can completely overhaul the main bot’s avatar, banner, and bio to perfectly match the spirit of your community. This way, you offer your members a completely exclusive and prestigious server experience they won’t find anywhere else. Elevate your server’s professionalism and brand value to the highest level. By shaping your bot’s visual world and profile details as you wish, you can make the connection you build with your members much more professional and iconic. Whether you’re giving your server a completely independent character with your own custom bot, or decorating the main bot’s profile with your server’s colors to give it a fresh new look—with Armea, both the appearance and vision of your server will be entirely under your control." },
-      "welcome":   { "title": "Strengthen Your Connections with Armea: A Unique Welcome Experience",                       "desc": "Welcome every new member who joins your server with a warm and guiding message designed just for them. Armea offers the most prestigious way to communicate your rules, share your server’s core vision, and announce your active events. This ensures that every participant feels like a part of an inclusive and dynamic community from the very first moment, without ever feeling left out. Build a strong sense of belonging to maximize interaction among users. By ensuring your new members feel both valued and fully informed, encourage them to take an active role in your channels and contribute to the community. Whether you’re competing in a large game lobby or simply sharing a fun chat environment, with Armea, every voice on your server will feel like an indispensable part of this big family." },
-      "customcommands":   { "title": "Break Through Boundaries with Armea: An Advanced Custom Commands Experience",                       "desc": "Break free from the constraints of standard templates and build a unique ecosystem shaped entirely by your imagination. Instead of confining you to standard bot commands, Armea empowers you to create dynamic commands, smart automated responses, and complex workflows tailored to your server’s specific needs. This allows you to automate your community’s daily routines while delivering a digital experience to your members that is entirely unique to your brand—one they won’t find anywhere else. Reduce the operational burden of server management to zero while maximizing moderation and interaction speed. You can send complex message sequences with a single trigger word, create smart responses that address members by name using advanced variables, or develop fun mini-game commands. Whether you’re setting up a support mechanism that instantly resolves recurring questions or developing humorous commands tailored to your server, with Armea, control is entirely in your hands, and your server will run like a well-oiled machine, operating by its own rules." },
-      "leveling":     { "title": "Competition and Fun with Armea: A Dynamic Level-Up Experience",         "desc": "Turn every message, every interaction, and every chat on your server into an exciting game mechanic. Armea moves beyond ordinary messaging habits, allowing your members to earn experience points (XP) as they stay active on the server and level up through fully personalized progression. This transforms your community from a mere space for sharing information into a vibrant digital arena where everyone wants to climb to the top, with every moment rewarded. Maximize interaction and user loyalty in chat channels. Boost in-server prestige by automatically assigning special roles to members as they level up, granting them access to private channels and unique perks. Whether you’re creating a friendly competitive environment or crowning your most active members with a leaderboard, with Armea, every voice on your server will feel that their contributions add value to the community and will come to see this place as their own home." },
-      "reactionrole": { "title": "Free Choices with Armea: An Experience with Dynamic Reaction Roles",                    "desc": "Give your members full control over your server and give them the freedom to design their own community experience. Armea eliminates complex role assignment processes, allowing your users to instantly claim roles that match their interests, the games they play, or their status on the server—all with just a single click on an emoji. This way, even on a server with thousands of members, you can easily optimize access so that everyone sees only the channels and notifications they want to see. Eliminate unnecessary chaos and tagging to maximize order within the server. By letting your members freely choose roles that reflect who they are, you can bring them together with the subcommunities they care about much more quickly and organically. Whether you’re unlocking new game rooms or distributing special roles for tournament and event announcements, with Armea, every interaction on your server will transform into a visually flawless and user-friendly management panel." },
-      "embeds":         { "title": "A Visual Feast with Armea: An Enhanced Embedded Messages Experience",                      "desc": "Say goodbye to plain text on your server and transform every channel you use to engage your community into a professional showcase. Armea lets you design your rules, announcements, and guides not as ordinary text, but as stylish embedded messages featuring custom color palettes, eye-catching headings, visuals, and organized fields. This way, you elevate your server’s visual identity to the highest level while ensuring that even the most critical information doesn’t go unnoticed by your members. Maximize the readability of your messages and take your server’s aesthetic to the next level. You can create a professional look by using custom color codes specific to your brand or server theme, and transform your messages into a fully interactive experience by adding logos and custom buttons. Whether you’re creating a flawless (server guide) for newcomers or announcing your most important events with a stunning launch vibe, every piece of content you share with Armea will become a design masterpiece that instantly captures your members’ attention and showcases your server’s quality." },
-      "ticket":    { "title": "Professional Support with Armea: An Advanced Ticket System Experience",                   "desc": "Leave the cries for help and complex direct message (DM) traffic on your server behind, and offer your members an enterprise-level support experience. Armea allows your users to open fully secure support channels—accessible only to themselves and authorized personnel—with a single click. This enables you to resolve your community’s issues, suggestions, or requests in a private and fully organized structure, away from the chaotic environment of general chats. Reduce your moderation team’s workload while maximizing member satisfaction and security. Categorize support requests by topic, instantly route the right request to the appropriate authorized role, and archive closed support histories (transcripts) to preserve your server storage. Whether you’re setting up a help desk to address technical issues in real time or meticulously managing new moderator applications for your server, Armea will transform your server into a reliable, flawlessly functioning hub where your members can always find a professional point of contact." },
-      "social":{ "title": "Live Streaming and Content Notifications with Armea: A Seamless Access Experience",                          "desc": "Break down the barriers between platforms and instantly share every piece of content you create and every live stream you launch with your community. Armea detects your live streams or video shares on platforms like Kick, YouTube, Twitch, and many others in seconds, and sends eye-catching, platform-specific announcements to your server. This ensures your followers aren’t left at the mercy of algorithms and guarantees your content reaches its intended audience from the very first second. Bring your community together in a single hub to maximize your visibility and engagement in the digital world. By displaying your stream titles, custom thumbnails, and direct participation links via sleek embedded messages on your server, encourage your members to join the live stream or like your video. Whether you’re launching an exciting Kick/Twitch stream or releasing a new video on your YouTube channel, with Armea, your server will transform into a vibrant, dynamic media hub where every piece of content you create resonates instantly." },
-      "moderation":        { "title": "Safe and Secure Servers with Armea: Advanced Moderation and AutoMod Experience",                        "desc": "Protect your server’s peace and community quality 24/7, and create an impenetrable shield against rule-breaking behavior. Armea instantly detects harmful links, profanity, spam attempts, and toxic language with AI-powered precision, lightening the load on your moderation team. This ensures your community remains safe, respectful, and inclusive for everyone—even while you sleep. Boost your operational efficiency while elevating server discipline and fairness to the highest level. With advanced AutoMod filters, automatically delete ads and inappropriate content in seconds; apply warnings, mutes, or bans to rule-breaking users through a flawless record-keeping system. Whether you’re protecting a massive community of hundreds of thousands of members from chaos or preserving the intimacy of a newly emerging boutique chat environment, with Armea, you’ll always have full control over your server, and its future will be completely secure." }
-    },
+      "custombot":      { "title": "Эксклюзивно для вас с Armea: Персонализированный бот и кастомный профиль",   "desc": "Поднимите идентичность вашего сервера на новый уровень и создайте уникального ИИ-ассистента, который представляет ваш бренд или сообщество. Armea открывает двери в два удивительных мира кастомизации: вы можете либо создать и интегрировать полностью независимого, кастомного бота, полностью адаптированного под имя и тему вашего сервера; либо вы можете полностью обновить аватар, баннер и био основного бота, чтобы они идеально соответствовали духу вашего сообщества. Таким образом, вы предложите своим участникам совершенно эксклюзивный и престижный опыт, который они не найдут больше нигде. Поднимите профессионализм и ценность бренда вашего сервера на самый высокий уровень. Формируя визуальный мир вашего бота и детали профиля по своему усмотрению, вы сможете сделать связь со своими участниками гораздо более профессиональной и знаковой. Создаете ли вы полностью независимого персонажа для своего сервера с помощью собственного кастомного бота или украшаете профиль основного бота цветами вашего сервера, чтобы придать ему свежий вид — с Armea и внешний вид, и видение вашего сервера будут полностью под вашим контролем." },
+      "welcome":   { "title": "Укрепляйте связи с Armea: Уникальный опыт приветствия",                        "desc": "Приветствуйте каждого нового участника, присоединившегося к вашему серверу, теплым и направляющим сообщением, созданным специально для него. Armea предлагает самый престижный способ донести ваши правила, поделиться ключевым видением сервера и анонсировать активные мероприятия. Это гарантирует, что каждый участник с самого первого момента почувствует себя частью инклюзивного и динамичного сообщества, никогда не оставаясь в стороне. Сформируйте сильное чувство принадлежности, чтобы максимизировать взаимодействие между пользователями. Обеспечивая новым участникам ощущение ценности и полную информированность, поощряйте их принимать активное участие в ваших каналах и вносить свой вклад в сообщество. Соревнуетесь ли вы в огромном игровом лобби или просто общаетесь в приятной дружеской атмосфере — с Armea каждый голос на вашем сервере почувствует себя незаменимой частью этой большой семьи." },
+      "customcommands":   { "title": "Разрушайте границы с Armea: Продвинутый опыт кастомных команд",                        "desc": "Освободитесь от ограничений стандартных шаблонов и постройте уникальную экосистему, сформированную исключительно вашим воображением. Вместо того чтобы ограничивать вас стандартными командами бота, Armea дает вам возможность создавать динамические команды, умные автоматические ответы и сложные рабочие процессы, адаптированные под конкретные нужды вашего сервера. Это позволяет автоматизировать повседневную рутину вашего сообщества, предоставляя участникам цифровой опыт, который полностью уникален для вашего бренда — тот, который они не найдут больше нигде. Снизьте операционную нагрузку по управлению сервером до нуля, одновременно максимизируя скорость модерации и взаимодействия. Вы можете отправлять сложные последовательности сообщений по одному триггерному слову, создавать умные ответы, которые обращаются к участникам по имени с использованием продвинутых переменных, или разрабатывать веселые команды для мини-игр. Настраиваете ли вы механизм поддержки, который мгновенно решает повторяющиеся вопросы, или разрабатываете юмористические команды, адаптированные для вашего сервера — с Armea контроль полностью в ваших руках, а ваш сервер будет работать как отлаженный механизм по своим собственным правилам." },
+      "leveling":     { "title": "Соревнование и веселье с Armea: Динамичный опыт повышения уровня",          "desc": "Превратите каждое сообщение, каждое взаимодействие и каждый чат на вашем сервере в увлекательную игровую механику. Armea выходит за рамки обычного общения, позволяя вашим участникам зарабатывать очки опыта (XP) за активность на сервере и повышать свой уровень в рамках полностью персонализированной системы прогресса. Это превращает ваше сообщество из простого пространства для обмена информацией в живую цифровую арену, где каждый хочет подняться на вершину, а каждый момент вознаждается. Максимизируйте взаимодействие и лояльность пользователей в текстовых каналах. Повышайте престиж внутри сервера, автоматически назначая участникам специальные роли по мере повышения их уровня, предоставляя им доступ к приватным каналам и уникальным привилегиям. Создаете ли вы дружескую конкурентную среду или коронуете самых активных участников на доске лидеров — с Armea каждый голос на вашем сервере почувствует, что его вклад приносит пользу сообществу, и начнет воспринимать это место как свой собственный дом." },
+      "reactionrole": { "title": "Свобода выбора с Armea: Опыт с динамическими ролями по реакциям",                     "desc": "Предоставьте вашим участникам полный контроль над сервером и дайте им свободу самостоятельно проектировать свой опыт в сообществе. Armea устраняет сложные процессы назначения ролей, позволяя пользователям мгновенно получать роли, соответствующие их интересам, играм, в которые они играют, или их статусу на сервере — и все это одним кликом по эмодзи. Таким образом, даже на сервере с тысячами участников вы сможете легко оптимизировать доступ, чтобы каждый видел только те каналы и уведомления, которые он хочет видеть. Устраните ненужный хаос и упоминания, чтобы максимизировать порядок внутри сервера. Позволяя участникам свободно выбирать роли, отражающие их индивидуальность, вы сможете собирать их вместе с важными для них подсообществами гораздо быстрее и органичнее. Открываете ли вы новые игровые комнаты или распределяете специальные роли для анонсов турниров и событий — с Armea любое взаимодействие на вашем сервере превратится в визуально безупречную и удобную панель управления." },
+      "embeds":         { "title": "Визуальный пир с Armea: Улучшенный опыт эмбед-сообщений",                       "desc": "Попрощайтесь с обычным текстом на вашем сервере и превратите каждый канал, который вы используете для взаимодействия с сообществом, в профессиональную витрину. Armea позволяет оформлять ваши правила, объявления и руководства не как обычный текст, а как стильные эмбед-сообщения с кастомными цветовыми палитрами, привлекающими внимание заголовками, визуальными эффектами и организованными полями. Таким образом, вы поднимаете визуальную идентичность вашего сервера на самый высокий уровень, гарантируя, что даже самая важная информация не останется незамеченной вашими участниками. Максимизируйте читаемость ваших сообщений и выведите эстетику сервера на новый уровень. Вы можете создать профессиональный вид, используя кастомные цветовые коды, специфичные для вашего бренда или темы сервера, и превратить ваши сообщения в полностью интерактивный опыт, добавляя логотипы и кастомные кнопки. Создаете ли вы безупречное руководство по серверу для новичков или анонсируете свои самые важные события с потрясающей атмосферой релиза — любой контент, которым вы делитесь с помощью Armea, станет шедевром дизайна, который мгновенно привлечет внимание участников и продемонстрирует качество вашего сервера." },
+      "ticket":    { "title": "Профессиональная поддержка с Armea: Продвинутая система тикетов",                   "desc": "Оставьте в прошлом мольбы о помощи и сложный трафик в личных сообщениях (DM) на вашем сервере и предложите своим участникам опыт поддержки корпоративного уровня. Armea позволяет вашим пользователям открывать полностью безопасные каналы поддержки, доступные только им самим и авторизованному персоналу, всего в один клик. Это позволяет решать проблемы, предложения или запросы вашего сообщества в приватной и полностью организованной структуре, вдали от хаотичной среды общих чатов. Снизьте нагрузку на вашу команду модераторов, одновременно максимизируя удовлетворенность и безопасность участников. Категоризируйте запросы в поддержку по темам, мгновенно направляйте нужный запрос соответствующей авторизованной роли и архивируйте истории закрытых тикетов (транскрипты) для сохранения истории сервера. Независимо от того, настраиваете ли вы службу поддержки для решения технических вопросов в режиме реального времени или тщательно управляете новыми заявками в модераторы для вашего сервера, Armea превратит ваш сервер в надежный, безупречно функционирующий хаб, где ваши участники всегда смогут найти профессиональный контакт для связи." },
+      "social":{ "title": "Прямые трансляции и уведомления о контенте с Armea: Бесшовный опыт доступа",                           "desc": "Разрушьте барьеры между платформами и мгновенно делитесь каждым созданным вами элементом контента и каждой запущенной трансляцией со своим сообществом. Armea за считанные секунды обнаруживает ваши прямые эфиры или новые видео на таких платформах, как Kick, YouTube, Twitch и многих других, и отправляет яркие, адаптированные под платформу анонсы на ваш сервер. Это гарантирует, что ваши подписчики не останутся на милость алгоритмов, и гарантирует, что ваш контент дойдет до целевой аудитории с самой первой секунды. Объедините свое сообщество в едином хабе, чтобы максимизировать вашу видимость и вовлеченность в цифровом мире. Отображая названия ваших стримов, кастомные превью и прямые ссылки для участия с помощью элегантных эмбед-сообщений на вашем сервере, поощряйте участников присоединяться к эфиру или лайкать ваше видео. Запускаете ли вы захватывающий стрим на Kick/Twitch или выпускаете новое видео на своем YouTube-канале — с Armea ваш сервер превратится в живой, динамичный медиахаб, где каждый созданный вами контент находит мгновенный отклик." },
+      "moderation":        { "title": "Безопасные и защищенные серверы с Armea: Продвинутая модерация и AutoMod",                         "desc": "Защищайте покой вашего сервера и качество сообщества 24/7, создавая непробиваемый щит против нарушений правил. Armea мгновенно обнаруживает вредоносные ссылки, ненормативную лексику, попытки спама и токсичный язык с точностью на базе ИИ, облегчая работу вашей команде модераторов. Это гарантирует, что ваше сообщество останется безопасным, уважительным и инклюзивным для всех — даже пока вы спите. Повысьте свою операционную эффективность, одновременно поднимая дисциплину и справедливость на сервере до высочайшего уровня. С помощью продвинутых фильтров AutoMod автоматически удаляйте рекламу и неприемлемый контент за считанные секунды; применяйте предупреждения, муты или баны к нарушителям правил через безупречную систему учета наказаний. Защищаете ли вы от хаоса огромное сообщество из сотен тысяч участников или сохраняете интимность зарождающейся ламповой атмосферы небольшого чата — с Armea вы всегда будете иметь полный контроль над своим сервером, а его будущее будет в полной безопасности." }
+      },
     "partners": {
-      "title": "Trusted by some of the largest Discord communities"
+      "title": "Нам доверяют одни из крупнейших сообществ в Discord"
     },
     "final": {
-      "title": "Armea: The Best All-in-One Discord Bot"
+      "title": "Armea: Лучший универсальный бот для Discord"
     },
     "smallFeatures": {
-      "welcome":   { "title": "A Unique Welcome Experience",      "desc": "Armea welcomes new members to your server with warm and informative messages, fostering a strong sense of belonging and ensuring that users are informed from the very first moment and take an active role in the community." },
-      "levels": { "title": "Entertainment: A Dynamic Level-Up Experience",     "desc": "Armea, which allows your members to earn XP and level up as long as they remain active, maximizes in-server interaction, prestige, and user loyalty through game mechanics such as automatic role-based rewards and leaderboards." },
-      "customcommands": { "title": "Advanced Custom Commands Experience", "desc": "By breaking free from standard bot templates and enabling you to create dynamic commands and smart automated responses tailored to your server, Armea reduces your operational workload to zero and delivers a completely unique and seamless digital experience for your community." },
-      "moderation": { "title": "Secure and Reliable Servers", "desc": "Take security and peace of mind to the next level on your servers with Armea. With advanced moderation tools and the intelligent AutoMod system, we keep your community protected at all times while streamlining complex management processes. Creating a seamless and reliable digital environment for your members has never been easier; Armea delivers the professional protection your community needs, down to every detail." }
+      "welcome":   { "title": "Уникальный опыт приветствия",      "desc": "Armea приветствует новых участников на вашем сервере теплыми и информативными сообщениями, формируя сильное чувство принадлежности и гарантируя, что пользователи будут проинформированы с самого первого момента и примут активное участие в жизни сообщества." },
+      "levels": { "title": "Развлечения: Динамичный опыт повышения уровня",     "desc": "Armea позволяет вашим участникам зарабатывать XP и повышать уровень, пока они остаются активными, максимизируя взаимодействие внутри сервера, престиж и лояльность пользователей благодаря таким игровым механикам, как автоматические награды в виде ролей и доски лидеров." },
+      "customcommands": { "title": "Продвинутый опыт кастомных команд", "desc": "Освобождая вас от ограничений стандартных шаблонов бота и позволяя создавать динамические команды и умные автоматические ответы, адаптированные под ваш сервер, Armea снижает вашу операционную нагрузку до нуля и предоставляет вашему сообществу совершенно уникальный и бесшовный цифровой опыт." },
+      "moderation": { "title": "Безопасные и надежные серверы", "desc": "Поднимите безопасность и спокойствие на ваших серверах на новый уровень вместе с Armea. Благодаря продвинутым инструментам модерации и умной системе AutoMod мы всегда держим ваше сообщество под защитой, упрощая сложные процессы управления. Создание бесшовной и надежной цифровой среды для ваших участников еще никогда не было таким простым; Armea обеспечивает профессиональную защиту, в которой нуждается ваше сообщество, вплоть до каждой детали." }
     },
     "cta": {
-      "title": "Ready to get started?",
-      "subtitle": "Join thousands of servers already using our bot.",
-      "button": "Add to Discord"
+      "title": "Готовы начать?",
+      "subtitle": "Присоединяйтесь к тысячам серверов, которые уже используют нашего бота.",
+      "button": "Добавить в Discord"
     }
   },
   "auth": {
-    "loginWith": "Login with Discord",
-    "loginDesc": "Sign in with your Discord account to manage your servers.",
-    "loggingIn": "Logging in...",
-    "logoutSuccess": "Logged out successfully.",
-    "error": "Authentication failed. Please try again."
+    "loginWith": "Войти через Discord",
+    "loginDesc": "Войдите с помощью своего аккаунта Discord, чтобы управлять серверами.",
+    "loggingIn": "Вход в систему...",
+    "logoutSuccess": "Успешный выход из системы.",
+    "error": "Ошибка аутентификации. Пожалуйста, попробуйте еще раз."
   },
   "guilds": {
-    "title": "Your Servers",
-    "subtitle": "Select a server to manage",
-    "botPresent": "Bot Active",
-    "botAbsent": "Add Bot",
-    "addBot": "Add Bot",
-    "manage": "Manage",
-    "noGuilds": "No manageable servers found.",
-    "loading": "Loading servers...",
-    "waiting": "Waiting...",
-    "inviteWaiting": "Waiting for bot to be added to the server...",
-    "inviteSuccess": "Authorization complete!",
-    "inviteClosing": "This tab will close automatically.",
-    "inviteTimeout": "Timed out waiting for the bot. Please try again."
+    "title": "Ваши серверы",
+    "subtitle": "Выберите сервер для управления",
+    "botPresent": "Бот активен",
+    "botAbsent": "Добавить бота",
+    "addBot": "Добавить бота",
+    "manage": "Управление",
+    "noGuilds": "Доступные для управления серверы не найдены.",
+    "loading": "Загрузка серверов...",
+    "waiting": "Ожидание...",
+    "inviteWaiting": "Ожидание добавления бота на сервер...",
+    "inviteSuccess": "Авторизация завершена!",
+    "inviteClosing": "Эта вкладка закроется автоматически.",
+    "inviteTimeout": "Время ожидания бота истекло. Пожалуйста, попробуйте еще раз."
   },
   "errors": {
-    "notFound": "Page Not Found",
-    "notFoundDesc": "The page you are looking for does not exist.",
-    "goHome": "Go Home",
-    "serverError": "Something went wrong.",
-    "unauthorized": "You need to login to access this page."
+    "notFound": "Страница не найдена",
+    "notFoundDesc": "Страница, которую вы ищете, не существует.",
+    "goHome": "На главную",
+    "serverError": "Что-то пошло не так.",
+    "unauthorized": "Вам необходимо войти в систему, чтобы получить доступ к этой странице."
   },
   "common": {
-    "loading": "Loading...",
-    "save": "Save",
-    "cancel": "Cancel",
-    "delete": "Delete",
-    "edit": "Edit",
-    "back": "Back",
-    "yes": "Yes",
-    "no": "No",
-    "enabled": "Enabled",
-    "disabled": "Disabled"
+    "loading": "Загрузка...",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "back": "Назад",
+    "yes": "Да",
+    "no": "Нет",
+    "enabled": "Включено",
+    "disabled": "Выключено"
   },
   "seo": {
     "home": {
-     "title": "Armea — Free All-in-One Discord Bot | Moderation & Dashboard",
-      "description": "Manage your Discord server easily with Armea! Enjoy a free web dashboard, advanced moderation, leveling, reaction roles, tickets, and welcome messages."
+     "title": "Armea — Бесплатный универсальный бот для Discord | Модерация и панель управления",
+      "description": "Управляйте своим сервером Discord легко с помощью Armea! Наслаждайтесь бесплатной веб-панелью управления, продвинутой модерацией, системой уровней, ролями по реакциям, тикетами и приветственными сообщениями."
     },
     "login": {
-      "title": "Login — Armea Discord Bot Dashboard",
-      "description": "Sign in with Discord to configure Armea on your server. Set up auto-moderation, leveling rewards, custom commands, reaction roles and more — all from one dashboard."
+      "title": "Вход — Панель управления Discord-бота Armea",
+      "description": "Войдите через Discord, чтобы настроить Armea на своем сервере. Настраивайте автомодерацию, награды за уровни, кастомные команды, роли по реакциям и многое другое — все из одной панели."
     },
     "servers": {
-      "title": "My Servers — Armea Discord Bot Dashboard",
-      "description": "Select your Discord server to manage with Armea. Configure moderation, XP leveling, reaction roles, ticket system, welcome messages and more."
+      "title": "Мои серверы — Панель управления Discord-бота Armea",
+      "description": "Выберите свой сервер Discord для управления с помощью Armea. Настраивайте модерацию, уровни XP, роли по реакциям, систему тикетов, приветственные сообщения и многое другое."
     },
     "premium": {
-      "title": "Armea Premium — Advanced Discord Bot Features for Your Server",
-      "description": "Unlock Armea Premium: unlimited custom commands, reaction roles, custom bot branding, rank card backgrounds, stats channels and more. Starting from $1.99/week. Fully refundable."
+      "title": "Armea Premium — Продвинутые функции Discord-бота для вашего сервера",
+      "description": "Разблокируйте Armea Premium: неограниченное количество кастомных команд, ролей по реакциям, кастомный брендинг бота, фоны для карточек ранга, каналы статистики и многое другое. От $1.99 в неделю. Полный возврат средств."
     },
     "status": {
-      "title": "Bot Status — Armea Discord Bot | Real-Time Uptime Monitor",
-      "description": "Check Armea Discord bot's live status. Monitor API uptime, shard health, database and cache latency in real time."
+      "title": "Статус бота — Discord-бот Armea | Мониторинг аптайма в реальном времени",
+      "description": "Проверяйте текущий статус Discord-бота Armea. Мониторьте аптайм API, состояние шардов, задержку базы данных и кэша в реальном времени."
     },
     "tutorials": {
-      "title": "Discord Bot Setup Guides & Tutorials — Armea",
-      "description": "Step-by-step guides to set up Armea Discord bot: auto-moderation, XP leveling, welcome messages, ticket system, reaction roles, embed builder and more."
+      "title": "Руководства и туториалы по настройке Discord-бота — Armea",
+      "description": "Пошаговые руководства по настройке Discord-бота Armea: автомодерация, уровни XP, приветственные сообщения, система тикетов, роли по реакциям, конструктор эмбедов и многое другое."
     },
     "plugins": {
-      "title": "Discord Bot Features — Armea | Moderation, Leveling, Tickets & More",
-      "description": "Explore every Armea feature: auto-moderation, XP leveling system, custom commands, embed builder, reaction roles, ticket system, welcome messages, custom bot branding and more."
+      "title": "Функции Discord-бота — Armea | Модерация, уровни, тикеты и многое другое",
+      "description": "Изучите все функции Armea: автомодерация, система уровней XP, кастомные команды, конструктор эмбедов, роли по реакциям, система тикетов, приветственные сообщения, кастомный брендинг бота и многое другое."
     },
     "terms": {
-      "title": "Terms of Service — Armea Discord Bot",
-      "description": "Read the terms of service for using Armea Discord bot and its web dashboard."
+      "title": "Условия использования — Discord-бот Armea",
+      "description": "Ознакомьтесь с условиями использования Discord-бота Armea и его веб-панели управления."
     },
     "privacy": {
-      "title": "Privacy Policy — Armea Discord Bot",
-      "description": "Learn how Armea Discord bot collects, uses and protects your data and your server members' data."
+      "title": "Политика конфиденциальности — Discord-бот Armea",
+      "description": "Узнайте, как Discord-бот Armea собирает, использует и защищает ваши данные и данные участников вашего сервера."
     },
     "cookies": {
-      "title": "Cookie Policy — Armea Discord Bot",
-      "description": "Understand how Armea uses cookies on its website and dashboard."
+      "title": "Политика в отношении файлов cookie — Discord-бот Armea",
+      "description": "Узнайте, как Armea использует файлы cookie на своем веб-сайте и в панели управления."
     }
   },
   "rankCard": {
