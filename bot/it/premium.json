@@ -1,0 +1,8 @@
+{
+  "custombot": {
+    "expired": "⚠️ **Custom Bot Premium Expired**\n\nYour Custom Bot premium subscription on this server has ended. Your custom bot has been stopped.\n\nVisit the dashboard to renew your premium."
+  },
+  "guild": {
+    "expired": "⚠️ **Guild Premium Expired**\n\nYour Guild Premium subscription on this server has ended. The bot's custom profile settings (avatar, banner, nickname) have been reset.\n\nVisit the dashboard to renew your premium."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "common": {
+    "noPermission": "❌ Bu komutu kullanma yetkiniz yok.",
+    "botNoPermission": "❌ Botun bu işlem için yeterli yetkisi yok.",
+    "userNotFound": "❌ Kullanıcı bulunamadı.",
+    "memberNotFound": "❌ Kullanıcı sunucuda bulunamadı.",
+    "immune": "❌ Bu kullanıcı moderasyon işlemlerinden muaftır.",
+    "higherRole": "❌ Bu kullanıcının rolü sizinkinden yüksek veya eşit.",
+    "noReason": "Sebep belirtilmedi",
+    "failed": "❌ İşlem uygulanamadı: {error}"
+  },
+  "ban": {
+    "usage": "❌ Kullanım: `ban @kullanici [süre_dk] [sebep]`",
+    "selfBan": "❌ Kendinizi banlayamazsınız.",
+    "botBan": "❌ Botu banlayamazsınız.",
+    "notBannable": "❌ Bu kullanıcı banlanamaz (rol hiyerarşisi).",
+    "botNoPerm": "❌ Botun ban yetkisi yok.",
+    "failed": "❌ Ban uygulanamadı: {error}",
+    "successPerm": "✅ **{user}** yasaklandı. Sebep: {reason}",
+    "successTemp": "✅ **{user}** {duration} dakika için yasaklandı. Sebep: {reason}",
+    "embedTitlePerm": "🔨 Ban Uygulandı",
+    "embedTitleTemp": "🔨 Geçici Ban Uygulandı",
+    "dmLabelPerm": "🔨 Kalıcı Ban",
+    "dmLabelTemp": "🔨 Geçici Ban ({duration} dk)"
+  },
+  "unban": {
+    "usage": "❌ Kullanım: `unban <kullanici_id> [sebep]`",
+    "notBanned": "❌ Bu kullanıcı banlı değil.",
+    "botNoPerm": "❌ Botun ban yetkisi yok.",
+    "failed": "❌ Unban uygulanamadı: {error}",
+    "success": "✅ **{user}** kullanıcısının yasağı kaldırıldı.",
+    "embedTitle": "✅ Ban Kaldırıldı"
+  },
+  "kick": {
+    "usage": "❌ Kullanım: `kick @kullanici [sebep]`",
+    "notKickable": "❌ Bu kullanıcı atılamaz (rol hiyerarşisi).",
+    "botNoPerm": "❌ Botun kick yetkisi yok.",
+    "failed": "❌ Kick uygulanamadı: {error}",
+    "success": "✅ **{user}** sunucudan atıldı. Sebep: {reason}",
+    "embedTitle": "👢 Kick Uygulandı",
+    "dmLabel": "👢 Sunucudan Atıldı"
+  },
+  "mute": {
+    "usage": "❌ Kullanım: `mute @kullanici [süre_dk] [sebep]`",
+    "botNoPerm": "❌ Botun timeout yetkisi yok.",
+    "failedRole": "❌ Rol bazlı mute uygulanamadı: {error}",
+    "failedTimeout": "❌ Timeout uygulanamadı: {error}",
+    "success": "✅ **{user}** {duration} dakika susturuldu. Sebep: {reason}",
+    "embedTitle": "🔇 Mute Uygulandı",
+    "dmLabel": "🔇 Susturuldu ({duration} dk)"
+  },
+  "unmute": {
+    "usage": "❌ Kullanım: `unmute @kullanici [sebep]`",
+    "notMuted": "❌ Bu kullanıcı zaten susturulmamış.",
+    "failedRole": "❌ Mute kaldırılamadı: {error}",
+    "failedTimeout": "❌ Timeout kaldırılamadı: {error}",
+    "success": "✅ **{user}** kullanıcısının susturması kaldırıldı.",
+    "embedTitle": "🔊 Mute Kaldırıldı"
+  },
+  "jail": {
+    "usage": "❌ Kullanım: `jail @kullanici [süre_dk] [sebep]`",
+    "notEnabled": "❌ Jail sistemi bu sunucuda aktif değil. Dashboard'dan etkinleştirin.",
+    "noRole": "❌ Jail rolü ayarlanmamış. Dashboard'dan ayarlayın.",
+    "alreadyJailed": "❌ Bu kullanıcı zaten jail'de.",
+    "failed": "❌ Jail uygulanamadı: {error}",
+    "success": "✅ **{user}** karantinaya alındı. Sebep: {reason}",
+    "successTemp": "✅ **{user}** karantinaya alındı. ({duration} dk) Sebep: {reason}",
+    "channelMsg": "🔒 <@{userId}> karantinaya alındı.\n📝 Sebep: {reason}",
+    "embedTitle": "🔒 Jail Uygulandı",
+    "dmLabel": "🔒 Karantinaya Alındı"
+  },
+  "unjail": {
+    "usage": "❌ Kullanım: `unjail @kullanici [sebep]`",
+    "notEnabled": "❌ Jail sistemi aktif değil veya jail rolü ayarlanmamış.",
+    "notJailed": "❌ Bu kullanıcı jail'de değil.",
+    "failed": "❌ Unjail uygulanamadı: {error}",
+    "success": "✅ **{user}** karantinadan çıkarıldı.",
+    "embedTitle": "🔓 Jail Kaldırıldı"
+  },
+  "lock": {
+    "usage": "❌ Kullanım: `lock kapat/ac [#kanal] [sebep]`",
+    "notTextChannel": "❌ Bu kanal metin kanalı değil.",
+    "failedLock": "❌ Kanal kilitlenemedi: {error}",
+    "failedUnlock": "❌ Kanalın kilidi açılamadı: {error}",
+    "successLock": "✅ <#{channelId}> kanalı kilitlendi.",
+    "successUnlock": "✅ <#{channelId}> kanalının kilidi açıldı.",
+    "channelMsgLock": "🔒 Bu kanal kilitlendi. Sebep: {reason}",
+    "channelMsgUnlock": "🔓 Bu kanalın kilidi açıldı.",
+    "embedTitleLock": "🔒 Kanal Kilitlendi",
+    "embedTitleUnlock": "🔓 Kanal Kilidi Açıldı"
+  },
+  "warn": {
+    "usage": "❌ Kullanım: `warn ver/listele/sil/temizle @kullanici [sebep/id]`",
+    "usageSil": "❌ Kullanım: `warn sil @kullanici <id>`",
+    "notFound": "❌ `{id}` ID'li uyarı bulunamadı.",
+    "noWarns": "✅ **{user}** kullanıcısının uyarısı yok.",
+    "success": "✅ **{user}** uyarıldı. ({count}/{threshold}) | ID: `{warnId}`",
+    "successEscalate": "✅ **{user}** uyarıldı ({count}/{threshold}).\n⚠️ Eşik aşıldı — **{action}** uygulandı.",
+    "deleted": "✅ Uyarı silindi. Kalan: {remaining}",
+    "cleared": "✅ **{user}** kullanıcısının {count} uyarısı temizlendi.",
+    "embedTitle": "⚠️ Uyarı Verildi",
+    "embedListTitle": "⚠️ {user} — Uyarılar",
+    "embedListFooter": "Toplam: {count} uyarı",
+    "embedEscalateTitle": "🚨 Uyarı Eşiği Aşıldı — {action}",
+    "dmLabel": "⚠️ Uyarı ({count}/{threshold})"
+  },
+  "clear": {
+    "usage": "❌ Kullanım: `clear <1-100> [@kullanici] [sebep]`",
+    "botNoPerm": "❌ Botun mesaj yönetme yetkisi yok.",
+    "noneFound": "❌ Silinecek mesaj bulunamadı (14 günden eski mesajlar silinemez).",
+    "failed": "❌ Mesajlar silinemedi: {error}",
+    "success": "✅ **{count}** mesaj silindi.",
+    "embedTitle": "🗑️ Mesajlar Silindi"
+  },
+  "dm": {
+    "title": "⚠️ Sunucu Cezası",
+    "description": "**{guild}** sunucusunda bir moderasyon işlemi uygulandı.",
+    "fieldAction": "⚡ İşlem",
+    "fieldServer": "🏠 Sunucu",
+    "footerModerator": "Moderatör: {moderator}",
+    "reasonLabel": "🔍 Sebep: {reason}",
+    "reasonDefault": "Belirtilmedi",
+    "serverButton": "📌 {guild}"
+  },
+  "embed": {
+    "fieldUser": "👤 Kullanıcı",
+    "fieldModerator": "🛡️ Moderatör",
+    "fieldReason": "📝 Sebep",
+    "reasonDefault": "Belirtilmedi",
+    "footerUserId": "Kullanıcı ID: {id}"
+  },
+  "slowmode": {
+    "usage": "❌ Kullanım: `slowmode <0-21600> [#kanal] [sebep]`",
+    "notTextChannel": "❌ Bu kanal metin kanalı değil.",
+    "failed": "❌ Slowmode ayarlanamadı: {error}",
+    "successOff": "✅ <#{channelId}> kanalının slowmode'u kapatıldı.",
+    "successOn": "✅ <#{channelId}> kanalına **{seconds} saniye** slowmode uygulandı.",
+    "embedTitleOff": "🔓 Slowmode Kapatıldı",
+    "embedTitleOn": "🐌 Slowmode Ayarlandı",
+    "durationOff": "Kapalı",
+    "durationOn": "{seconds} saniye"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "reactionRole": {
+    "panelInvalid": "❌ Bu panel artık geçerli değil.",
+    "moduleDisabled": "❌ Reaction Role modülü bu sunucuda aktif değil.",
+    "roleInvalid": "❌ Bu rol artık geçerli değil.",
+    "roleRemoved": "✅ <@&{roleId}> rolü kaldırıldı.",
+    "roleAdded": "✅ <@&{roleId}> rolü verildi."
+  },
+  "embedBuilder": {
+    "panelNotFound": "❌ Panel bulunamadı.",
+    "blockNotFound": "❌ Blok bulunamadı.",
+    "buttonNotFound": "❌ Buton içeriği bulunamadı.",
+    "imageNotFound": "❌ Görsel bulunamadı.",
+    "imageInvalidUrl": "❌ Geçersiz görsel URL.",
+    "imageLoadFailed": "❌ Görsel yüklenemedi."
+  },
+  "customCommand": {
+    "cmdNotFound": "❌ Komut bulunamadı.",
+    "responseNotFound": "❌ Yanıt bulunamadı.",
+    "buttonNoContent": "❌ Buton içeriği yok.",
+    "contentFailed": "❌ İçerik oluşturulamadı.",
+    "menuNotFound": "❌ Menü bulunamadı.",
+    "optionNotFound": "❌ Seçenek bulunamadı."
+  },
+  "modDm": {
+    "reasonLabel": "**Ceza Sebebi:**\n{reason}"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "dm": {
+    "title": "⚠️ Server Penalty",
+    "defaultDescription": "An automatic moderation rule was violated in **{guild}**.",
+    "fieldServer": "🏠 Server",
+    "fieldAction": "⚡ Action",
+    "footerRule": "Rule: {rule}",
+    "serverButton": "📌 {guild}",
+    "reasonButton": "🔍 Reason: {reason}"
+  },
+  "actions": {
+    "warn": "⚠️ Warning",
+    "warnCount": "⚠️ Warning ({count}/{threshold})",
+    "delete": "🗑️ Message Deleted",
+    "mute": "🔇 Permanent Mute",
+    "tempmute": "🔇 Temporary Mute ({duration} min)",
+    "kick": "👢 Kicked from Server",
+    "tempban": "🔨 Temporary Ban ({duration} min)",
+    "ban": "🔨 Permanent Ban"
+  },
+  "log": {
+    "title": "🛡️ AutoMod Action",
+    "fieldUser": "👤 User",
+    "fieldAction": "⚡ Action",
+    "fieldRule": "📋 Rule",
+    "fieldTrigger": "🎯 Trigger",
+    "fieldChannel": "📍 Channel",
+    "fieldWarnCount": "⚠️ Warning Count",
+    "fieldContent": "💬 Content",
+    "footerUserId": "User ID: {id}"
+  },
+  "reasonButton": {
+    "label": "**Penalty Reason:**\n{reason}"
+  }
+}

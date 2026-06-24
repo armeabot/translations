@@ -1,0 +1,8 @@
+{
+  "custombot": {
+    "expired": "⚠️ **Custom Bot Premium Süresi Doldu**\n\nSunucunuzdaki Custom Bot premium aboneliğiniz sona erdi. Custom botunuz durduruldu.\n\nPremium'u yenilemek için dashboard'u ziyaret edin."
+  },
+  "guild": {
+    "expired": "⚠️ **Guild Premium Süresi Doldu**\n\nSunucunuzdaki Guild Premium aboneliğiniz sona erdi. Botun özel profil ayarları (avatar, banner, nickname) sıfırlandı.\n\nPremium'u yenilemek için dashboard'u ziyaret edin."
+  }
+}

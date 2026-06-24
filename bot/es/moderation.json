@@ -1,0 +1,143 @@
+{
+  "common": {
+    "noPermission": "❌ You don't have permission to use this command.",
+    "botNoPermission": "❌ The bot doesn't have enough permissions for this action.",
+    "userNotFound": "❌ User not found.",
+    "memberNotFound": "❌ User not found in this server.",
+    "immune": "❌ This user is immune to moderation actions.",
+    "higherRole": "❌ This user's role is equal to or higher than yours.",
+    "noReason": "No reason provided",
+    "failed": "❌ Action failed: {error}"
+  },
+  "ban": {
+    "usage": "❌ Usage: `ban @user [duration_min] [reason]`",
+    "selfBan": "❌ You cannot ban yourself.",
+    "botBan": "❌ You cannot ban the bot.",
+    "notBannable": "❌ This user cannot be banned (role hierarchy).",
+    "botNoPerm": "❌ The bot doesn't have ban permission.",
+    "failed": "❌ Ban failed: {error}",
+    "successPerm": "✅ **{user}** has been banned. Reason: {reason}",
+    "successTemp": "✅ **{user}** has been banned for {duration} minutes. Reason: {reason}",
+    "embedTitlePerm": "🔨 Ban Applied",
+    "embedTitleTemp": "🔨 Temporary Ban Applied",
+    "dmLabelPerm": "🔨 Permanent Ban",
+    "dmLabelTemp": "🔨 Temporary Ban ({duration} min)"
+  },
+  "unban": {
+    "usage": "❌ Usage: `unban <user_id> [reason]`",
+    "notBanned": "❌ This user is not banned.",
+    "botNoPerm": "❌ The bot doesn't have ban permission.",
+    "failed": "❌ Unban failed: {error}",
+    "success": "✅ **{user}**'s ban has been removed.",
+    "embedTitle": "✅ Ban Removed"
+  },
+  "kick": {
+    "usage": "❌ Usage: `kick @user [reason]`",
+    "notKickable": "❌ This user cannot be kicked (role hierarchy).",
+    "botNoPerm": "❌ The bot doesn't have kick permission.",
+    "failed": "❌ Kick failed: {error}",
+    "success": "✅ **{user}** has been kicked. Reason: {reason}",
+    "embedTitle": "👢 Kick Applied",
+    "dmLabel": "👢 Kicked from Server"
+  },
+  "mute": {
+    "usage": "❌ Usage: `mute @user [duration_min] [reason]`",
+    "botNoPerm": "❌ The bot doesn't have timeout permission.",
+    "failedRole": "❌ Role-based mute failed: {error}",
+    "failedTimeout": "❌ Timeout failed: {error}",
+    "success": "✅ **{user}** has been muted for {duration} minutes. Reason: {reason}",
+    "embedTitle": "🔇 Mute Applied",
+    "dmLabel": "🔇 Muted ({duration} min)"
+  },
+  "unmute": {
+    "usage": "❌ Usage: `unmute @user [reason]`",
+    "notMuted": "❌ This user is not muted.",
+    "failedRole": "❌ Mute removal failed: {error}",
+    "failedTimeout": "❌ Timeout removal failed: {error}",
+    "success": "✅ **{user}**'s mute has been removed.",
+    "embedTitle": "🔊 Mute Removed"
+  },
+  "jail": {
+    "usage": "❌ Usage: `jail @user [duration_min] [reason]`",
+    "notEnabled": "❌ Jail system is not active on this server. Enable it from the Dashboard.",
+    "noRole": "❌ Jail role is not set. Configure it from the Dashboard.",
+    "alreadyJailed": "❌ This user is already in jail.",
+    "failed": "❌ Jail failed: {error}",
+    "success": "✅ **{user}** has been jailed. Reason: {reason}",
+    "successTemp": "✅ **{user}** has been jailed. ({duration} min) Reason: {reason}",
+    "channelMsg": "🔒 <@{userId}> has been jailed.\n📝 Reason: {reason}",
+    "embedTitle": "🔒 Jail Applied",
+    "dmLabel": "🔒 Jailed"
+  },
+  "unjail": {
+    "usage": "❌ Usage: `unjail @user [reason]`",
+    "notEnabled": "❌ Jail system is not active or jail role is not set.",
+    "notJailed": "❌ This user is not in jail.",
+    "failed": "❌ Unjail failed: {error}",
+    "success": "✅ **{user}** has been released from jail.",
+    "embedTitle": "🔓 Jail Removed"
+  },
+  "lock": {
+    "usage": "❌ Usage: `lock close/open [#channel] [reason]`",
+    "notTextChannel": "❌ This channel is not a text channel.",
+    "failedLock": "❌ Channel could not be locked: {error}",
+    "failedUnlock": "❌ Channel could not be unlocked: {error}",
+    "successLock": "✅ <#{channelId}> has been locked.",
+    "successUnlock": "✅ <#{channelId}> has been unlocked.",
+    "channelMsgLock": "🔒 This channel has been locked. Reason: {reason}",
+    "channelMsgUnlock": "🔓 This channel has been unlocked.",
+    "embedTitleLock": "🔒 Channel Locked",
+    "embedTitleUnlock": "🔓 Channel Unlocked"
+  },
+  "warn": {
+    "usage": "❌ Usage: `warn add/list/remove/clear @user [reason/id]`",
+    "usageSil": "❌ Usage: `warn remove @user <id>`",
+    "notFound": "❌ Warning with ID `{id}` not found.",
+    "noWarns": "✅ **{user}** has no warnings.",
+    "success": "✅ **{user}** has been warned. ({count}/{threshold}) | ID: `{warnId}`",
+    "successEscalate": "✅ **{user}** has been warned ({count}/{threshold}).\n⚠️ Threshold reached — **{action}** applied.",
+    "deleted": "✅ Warning deleted. Remaining: {remaining}",
+    "cleared": "✅ {count} warnings cleared for **{user}**.",
+    "embedTitle": "⚠️ Warning Issued",
+    "embedListTitle": "⚠️ {user} — Warnings",
+    "embedListFooter": "Total: {count} warnings",
+    "embedEscalateTitle": "🚨 Warning Threshold Reached — {action}",
+    "dmLabel": "⚠️ Warning ({count}/{threshold})"
+  },
+  "clear": {
+    "usage": "❌ Usage: `clear <1-100> [@user] [reason]`",
+    "botNoPerm": "❌ The bot doesn't have message management permission.",
+    "noneFound": "❌ No messages found to delete (messages older than 14 days cannot be deleted).",
+    "failed": "❌ Messages could not be deleted: {error}",
+    "success": "✅ **{count}** messages deleted.",
+    "embedTitle": "🗑️ Messages Deleted"
+  },
+  "dm": {
+    "title": "⚠️ Server Penalty",
+    "description": "A moderation action was applied in **{guild}**.",
+    "fieldAction": "⚡ Action",
+    "fieldServer": "🏠 Server",
+    "footerModerator": "Moderator: {moderator}",
+    "reasonLabel": "🔍 Reason: {reason}",
+    "reasonDefault": "Not specified",
+    "serverButton": "📌 {guild}"
+  },
+  "embed": {
+    "fieldUser": "👤 User",
+    "fieldModerator": "🛡️ Moderator",
+    "fieldReason": "📝 Reason",
+    "reasonDefault": "Not specified",
+    "footerUserId": "User ID: {id}"
+  },
+  "slowmode": {
+    "usage": "❌ Usage: `slowmode <0-21600> [#channel] [reason]`",
+    "notTextChannel": "❌ This channel is not a text channel.",
+    "failed": "❌ Slowmode could not be set: {error}",
+    "successOff": "✅ Slowmode disabled for <#{channelId}>.",
+    "successOn": "✅ Slowmode set to **{seconds} seconds** for <#{channelId}>.",
+    "embedTitleOff": "🔓 Slowmode Disabled",
+    "embedTitleOn": "🐌 Slowmode Set",
+    "durationOff": "Disabled",
+    "durationOn": "{seconds} seconds"
+  }
+}

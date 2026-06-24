@@ -1,0 +1,70 @@
+{
+  "interaction": {
+    "panelInactive": "❌ This panel is no longer active.",
+    "optionNotFound": "❌ Option not found.",
+    "opened": "✅ Your ticket has been created: <#{channelId}>",
+    "notFound": "❌ Ticket not found or already closed.",
+    "panelNotFound": "❌ Panel not found.",
+    "noPermClose": "❌ You don't have permission to close this ticket.",
+    "confirmClose": "⚠️ Are you sure you want to close this ticket?",
+    "confirmYes": "Yes, Close",
+    "confirmNo": "Cancel",
+    "closing": "🔒 Closing ticket...",
+    "closed": "✅ Ticket closed.",
+    "claimNotFound": "❌ Ticket not found or closed.",
+    "claimDisabled": "❌ Claim system is not active on this panel.",
+    "noPermClaim": "❌ You don't have permission to claim this ticket.",
+    "alreadyClaimed": "❌ This ticket is already claimed by <@{userId}>.",
+    "claimed": "✅ Ticket claimed."
+  },
+  "errors": {
+    "prefix": "❌",
+    "moduleDisabled": "Ticket module is not active on this server.",
+    "maxOpen": "You already have {max} open ticket(s) in this category.",
+    "openFailed": "An error occurred while creating the ticket.",
+    "closeFailed": "An error occurred while closing the ticket.",
+    "claimFailed": "Claim operation failed."
+  },
+  "buttons": {
+    "close": "Close",
+    "claim": "Claim"
+  },
+  "close": {
+    "countdown": "🔒 This ticket will be closed in **{seconds} seconds**.",
+    "deleteReason": "Ticket closed"
+  },
+  "claim": {
+    "claimedDesc": "✅ This ticket has been claimed by <@{userId}>."
+  },
+  "transcript": {
+    "header": "=== Ticket #{number} Transcript ===",
+    "fieldServer": "Server: {name}",
+    "fieldOpener": "Opened by: {username} ({id})",
+    "fieldDate": "Date: {date}",
+    "fieldTotal": "Total Messages: {count}",
+    "embedTitle": "Ticket #{number} Transcript",
+    "embedFieldOpener": "Opened By",
+    "embedFieldCloser": "Closed By",
+    "embedFieldDate": "Date",
+    "embedFieldReason": "Reason",
+    "closerSystem": "System"
+  },
+  "log": {
+    "openTitle": "🎫 Ticket Opened",
+    "closeTitle": "🔒 Ticket Closed",
+    "claimTitle": "🙋 Ticket Claimed",
+    "defaultTitle": "Ticket",
+    "fieldTicket": "Ticket",
+    "fieldOpener": "Opened By",
+    "fieldChannel": "Channel",
+    "fieldExecutor": "Performed By",
+    "fieldReason": "Reason",
+    "executorSystem": "System"
+  },
+  "notify": {
+    "title": "New Ticket",
+    "description": "<@{userId}> opened a new ticket.",
+    "fieldChannel": "Channel",
+    "fieldPanel": "Panel"
+  }
+}

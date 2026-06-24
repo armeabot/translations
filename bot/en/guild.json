@@ -1,0 +1,28 @@
+{
+  "prefix": {
+    "changed": "✅ Prefix updated to `{prefix}`.",
+    "reset": "✅ Prefix reset to default (`{prefix}`).",
+    "current": "📌 Current prefix: `{prefix}`",
+    "tooLong": "❌ Prefix can be at most 5 characters.",
+    "show": "Server's current prefix: `{prefix}`"
+  },
+  "lang": {
+    "changed": "✅ Server language set to **{lang}**.",
+    "current": "📌 Current language: **{lang}**"
+  },
+  "errors": {
+    "noPermission": "❌ You don't have permission for this action.",
+    "botNoPermission": "❌ Bot doesn't have enough permissions for this action.",
+    "commandError": "❌ An error occurred while running the command.",
+    "moduleDisabled": "❌ This module is not active on this server.",
+    "cooldown": "⏳ You need to wait **{seconds}** seconds before using this command again.",
+    "notFound": "❌ Not found.",
+    "onlyGuild": "❌ This command can only be used in servers.",
+    "generic": "❌ An error occurred."
+  },
+  "general": {
+    "success": "✅ Operation completed successfully.",
+    "loading": "⏳ Loading...",
+    "cancelled": "❌ Operation cancelled."
+  }
+}

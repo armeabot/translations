@@ -1,0 +1,28 @@
+{
+  "reactionRole": {
+    "panelInvalid": "❌ This panel is no longer valid.",
+    "moduleDisabled": "❌ Reaction Role module is not active on this server.",
+    "roleInvalid": "❌ This role is no longer valid.",
+    "roleRemoved": "✅ <@&{roleId}> role removed.",
+    "roleAdded": "✅ <@&{roleId}> role given."
+  },
+  "embedBuilder": {
+    "panelNotFound": "❌ Panel not found.",
+    "blockNotFound": "❌ Block not found.",
+    "buttonNotFound": "❌ Button content not found.",
+    "imageNotFound": "❌ Image not found.",
+    "imageInvalidUrl": "❌ Invalid image URL.",
+    "imageLoadFailed": "❌ Image could not be loaded."
+  },
+  "customCommand": {
+    "cmdNotFound": "❌ Command not found.",
+    "responseNotFound": "❌ Response not found.",
+    "buttonNoContent": "❌ Button has no content.",
+    "contentFailed": "❌ Content could not be built.",
+    "menuNotFound": "❌ Menu not found.",
+    "optionNotFound": "❌ Option not found."
+  },
+  "modDm": {
+    "reasonLabel": "**Penalty Reason:**\n{reason}"
+  }
+}

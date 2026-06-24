@@ -1,0 +1,35 @@
+{
+  "dm": {
+    "title": "⚠️ Sunucu Cezası",
+    "defaultDescription": "**{guild}** sunucusunda otomatik moderasyon kuralı ihlal ettiğin için işlem uygulandı.",
+    "fieldServer": "🏠 Sunucu",
+    "fieldAction": "⚡ İşlem",
+    "footerRule": "Kural: {rule}",
+    "serverButton": "📌 {guild}",
+    "reasonButton": "🔍 Sebep: {reason}"
+  },
+  "actions": {
+    "warn": "⚠️ Uyarı",
+    "warnCount": "⚠️ Uyarı ({count}/{threshold})",
+    "delete": "🗑️ Mesaj Silindi",
+    "mute": "🔇 Kalıcı Susturma",
+    "tempmute": "🔇 Geçici Susturma ({duration} dk)",
+    "kick": "👢 Sunucudan Atıldı",
+    "tempban": "🔨 Geçici Yasak ({duration} dk)",
+    "ban": "🔨 Kalıcı Yasak"
+  },
+  "log": {
+    "title": "🛡️ AutoMod İşlemi",
+    "fieldUser": "👤 Kullanıcı",
+    "fieldAction": "⚡ İşlem",
+    "fieldRule": "📋 Kural",
+    "fieldTrigger": "🎯 Tetikleyici",
+    "fieldChannel": "📍 Kanal",
+    "fieldWarnCount": "⚠️ Uyarı Sayısı",
+    "fieldContent": "💬 İçerik",
+    "footerUserId": "Kullanıcı ID: {id}"
+  },
+  "reasonButton": {
+    "label": "**Ceza Sebebi:**\n{reason}"
+  }
+}

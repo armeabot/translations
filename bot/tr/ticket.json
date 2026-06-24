@@ -1,0 +1,70 @@
+{
+  "interaction": {
+    "panelInactive": "❌ Bu panel artık aktif değil.",
+    "optionNotFound": "❌ Seçenek bulunamadı.",
+    "opened": "✅ Ticket'ınız oluşturuldu: <#{channelId}>",
+    "notFound": "❌ Ticket bulunamadı veya zaten kapalı.",
+    "panelNotFound": "❌ Panel bulunamadı.",
+    "noPermClose": "❌ Bu ticket'ı kapatma yetkiniz yok.",
+    "confirmClose": "⚠️ Bu ticket'ı kapatmak istediğinizden emin misiniz?",
+    "confirmYes": "Evet, Kapat",
+    "confirmNo": "İptal",
+    "closing": "🔒 Ticket kapatılıyor...",
+    "closed": "✅ Ticket kapatıldı.",
+    "claimNotFound": "❌ Ticket bulunamadı veya kapalı.",
+    "claimDisabled": "❌ Claim sistemi bu panelde aktif değil.",
+    "noPermClaim": "❌ Bu ticket'ı üstlenme yetkiniz yok.",
+    "alreadyClaimed": "❌ Bu ticket zaten <@{userId}> tarafından üstlenilmiş.",
+    "claimed": "✅ Ticket üstlenildi."
+  },
+  "errors": {
+    "prefix": "❌",
+    "moduleDisabled": "Ticket modülü bu sunucuda aktif değil.",
+    "maxOpen": "Bu kategoride zaten {max} açık ticket'ınız var.",
+    "openFailed": "Ticket oluşturulurken bir hata oluştu.",
+    "closeFailed": "Ticket kapatılırken bir hata oluştu.",
+    "claimFailed": "Claim işlemi başarısız."
+  },
+  "buttons": {
+    "close": "Kapat",
+    "claim": "Üstlen"
+  },
+  "close": {
+    "countdown": "🔒 Bu ticket **{seconds} saniye** içinde kapatılacak.",
+    "deleteReason": "Ticket kapatıldı"
+  },
+  "claim": {
+    "claimedDesc": "✅ Bu ticket <@{userId}> tarafından üstlenildi."
+  },
+  "transcript": {
+    "header": "=== Ticket #{number} Transcript ===",
+    "fieldServer": "Sunucu: {name}",
+    "fieldOpener": "Açan: {username} ({id})",
+    "fieldDate": "Tarih: {date}",
+    "fieldTotal": "Toplam Mesaj: {count}",
+    "embedTitle": "Ticket #{number} Transcript",
+    "embedFieldOpener": "Açan",
+    "embedFieldCloser": "Kapatan",
+    "embedFieldDate": "Tarih",
+    "embedFieldReason": "Sebep",
+    "closerSystem": "Sistem"
+  },
+  "log": {
+    "openTitle": "🎫 Ticket Açıldı",
+    "closeTitle": "🔒 Ticket Kapatıldı",
+    "claimTitle": "🙋 Ticket Üstlenildi",
+    "defaultTitle": "Ticket",
+    "fieldTicket": "Ticket",
+    "fieldOpener": "Açan",
+    "fieldChannel": "Kanal",
+    "fieldExecutor": "İşlemi Yapan",
+    "fieldReason": "Sebep",
+    "executorSystem": "Sistem"
+  },
+  "notify": {
+    "title": "Yeni Ticket",
+    "description": "<@{userId}> yeni bir ticket açtı.",
+    "fieldChannel": "Kanal",
+    "fieldPanel": "Panel"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prefix": {
+    "changed": "✅ Prefix `{prefix}` olarak güncellendi.",
+    "reset": "✅ Prefix varsayılan değere (`{prefix}`) sıfırlandı.",
+    "current": "📌 Mevcut prefix: `{prefix}`",
+    "tooLong": "❌ Prefix en fazla 5 karakter olabilir.",
+    "show": "Sunucunun mevcut prefixi: `{prefix}`"
+  },
+  "lang": {
+    "changed": "✅ Sunucu dili **{lang}** olarak ayarlandı.",
+    "current": "📌 Mevcut dil: **{lang}**"
+  },
+  "errors": {
+    "noPermission": "❌ Bu işlem için yetkin yok.",
+    "botNoPermission": "❌ Botun bu işlem için yeterli yetkisi yok.",
+    "commandError": "❌ Komut çalıştırılırken bir hata oluştu.",
+    "moduleDisabled": "❌ Bu modül bu sunucuda aktif değil.",
+    "cooldown": "⏳ Bu komutu kullanmak için **{seconds}** saniye beklemelisin.",
+    "notFound": "❌ Bulunamadı.",
+    "onlyGuild": "❌ Bu komut sadece sunucularda kullanılabilir.",
+    "generic": "❌ Bir hata oluştu."
+  },
+  "general": {
+    "success": "✅ İşlem başarıyla tamamlandı.",
+    "loading": "⏳ Yükleniyor...",
+    "cancelled": "❌ İşlem iptal edildi."
+  }
+}
